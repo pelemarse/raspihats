@@ -18,7 +18,7 @@ sudo pacman -S i2c-tools
 dtparam=i2c_arm=on
 ```
 ```
-# vim /etc/modules-load.d/raspberrypi.conf
+# /etc/modules-load.d/raspberrypi.conf
 
 i2c-dev
 ```
